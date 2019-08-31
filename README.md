@@ -4,7 +4,9 @@ Jawaban tes online nomor 1 sampai 6
 
 ## NOMOR 1
 
-  {
+function getProfile() {
+  return {
+  
     "name":"Muhammad Rofiul haq",
     "age":21,
     "address":"Jl.Padat Karya I ,Balikpapan",
@@ -26,23 +28,55 @@ Jawaban tes online nomor 1 sampai 6
     "interest_in_coding": true,
   }
 
-
-  // Code di atas dapat dibuka dalam bahasa program HTML,JS,CSS
   // JSON yaitu format untuk mentransmisikan (mengirim dan menerima) data web API (server) ke client atau sebaliknya.
 
-## Describe your project
+## NOMOR 2
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+function is_username_valid(username) {
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+  var lowercaseRe = /[a-z]/g;
+  
+  var uppercaseRe = /[A-Z]/g;
+  
+	if(username.length == 5-9 
+	&& username.match(lowercaseRe)
+	&& username.match(uppercaseRe)
+	.length == username.length) {
+    	return true;
+    }
+    return false;
+}
 
-## Your first website
+function is_password_valid(password) {
+  
+	var lowercaseRe = /[a-z]/g;
+  
+  var uppercaseRe = /[A-Z]/g;
+
+ 
+  var numberRe = /[0-9]/g;
+
+  
+  var specialRe = /[_@#$%]/g;
+
+  if(password.length == 8
+     && lowercaseRe.test(password)
+     && uppercaseRe.test(password)
+     && numberRe.test(password)
+     && specialRe.test(password)) {
+     return true;
+  }
+
+  return false;
+}
+
+## NOMOR 3
 
 **GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
 
 [Learn more about GitHub Pages](https://pages.github.com/)
 
-## Rename this repository to publish your site
+## NOMOR 4
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
@@ -58,7 +92,7 @@ Once you click **Rename**, your website will automatically be published at: http
 
 Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
 
-## Making your first edit
+## NOMOR 5
 
 When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
 
