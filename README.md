@@ -2,11 +2,33 @@
 
 Jawaban tes online nomor 1 sampai 6 
 
-## Repositories
+## NOMOR 1
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+  {
+    "name":"Muhammad Rofiul haq",
+    "age":21,
+    "address":"Jl.Padat Karya I ,Balikpapan",
+    "hobbies": ["Football", "table tennis"] ,
+    "is_married": false,
+    "list_school": [{
+      "name": "MA ALKHAIRAT PUSAT PALU",
+      "year_in":2012,
+      "year_out":2015,
+      "major":"sience",
+    }], 
+    "skills": [{
+      "name": "English",
+      "level": "advanced"
+    },{
+      "name": "communication",
+      "level":"advanced"
+    }],
+    "interest_in_coding": true,
+  }
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+
+  // Code di atas dapat dibuka dalam bahasa program HTML,JS,CSS
+  // JSON yaitu format untuk mentransmisikan (mengirim dan menerima) data web API (server) ke client atau sebaliknya.
 
 ## Describe your project
 
